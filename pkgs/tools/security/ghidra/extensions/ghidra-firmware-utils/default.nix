@@ -22,8 +22,7 @@ let
     meta = {
       description = "Ghidra utilities for analyzing PC firmware ";
       homepage = "https://github.com/al3xtjames/ghidra-firmware-utils";
-      license = lib.licenses.todo;
-      maintainers = [ lib.maintainers.na ];
+      license = lib.licenses.asl20;
       platforms = lib.platforms.unix;
     };
   };
